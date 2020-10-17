@@ -11,6 +11,17 @@
   <body>
     <div class="container">
         <h1>Tic-Tac-Toe</h1>
+        <div id="sounds">
+          <audio src="sounds/click.mp3" id="click" preload="auto"></audio>
+          <audio src="sounds/win.mp3" id="win" preload="auto"></audio>
+          <audio src="sounds/lose.mp3" id="lose" preload="auto"></audio>
+        </div>
+        <div class="icons">
+          <img src="images/ray.gif" id="ray">
+          <img src="images/smallfish.gif" id="smallfish">
+          <img src="images/puffer.gif" id="puffer">
+          <img src="images/redfish.gif" id="redfish">
+        </div>
         <div class="play-area">
           <div id="block_0" class="block"></div>
           <div id="block_1" class="block"></div>
@@ -23,10 +34,6 @@
           <div id="block_8" class="block"></div>
         </div>
         <h2 id="winner"></h2>
-        <div class="icons">
-          <img src="images/ray.gif" id="ray">
-          <img src="images/smallfish.gif" id="smallfish">
-        </div>
         <button onclick="reset_board()">Reset Board</button>
       </div>
     <script src="tictactoe.js"></script>

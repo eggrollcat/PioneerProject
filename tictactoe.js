@@ -47,12 +47,17 @@ const check_match = () => {
 };
 
 const check_for_winner = () => {
+  // This function checks for a win or lose
+  var win = document.getElementById("win");
+  var lose = document.getElementById("lose");
   let res = check_match()
   if (res == player) {
+    win.play();
     winner.innerText = "You Win! :)";
     winner.classList.add("playerWin");
     board_full = true
   } else if (res == computer) {
+    lose.play(); 
     winner.innerText = "You Lose! :(";
     winner.classList.add("computerWin");
     board_full = true
@@ -79,7 +84,9 @@ const game_loop = () => {
 }
 
 const addPlayerMove = e => {
+  var click = document.getElementById("click")
   if (!board_full && play_board[e] == "") {
+    click.play()
     play_board[e] = player;
     game_loop();
     addComputerMove();

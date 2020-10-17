@@ -99,7 +99,7 @@
   #ray {
     float: left;
     position: absolute;
-    left: 100px;
+    left: 50px;
     width: 400px;
     height: auto;
     bottom: 300px;
@@ -111,8 +111,23 @@
     right: 0px;
     width: 500px;
     height: auto;
-    bottom: 100px;
   } 
+
+  #puffer {
+    float: right;
+    position: absolute;
+    right: 300px;
+    width: 150px;
+    height: auto;
+    bottom: 400px;
+  }
+
+  #redfish {
+    float: left;
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+  }
 
   button {
     outline: none;
@@ -139,7 +154,7 @@
   }
   
   .draw {
-    color: orangered;
+    color: yellow;
   }
   
   @media only screen and (max-width: 600px) {
