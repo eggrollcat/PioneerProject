@@ -8,3 +8,6 @@ basic coding with HMTL, CSS, and JavaScript.
 
 The code contained in this repository documents my progress as I learned basic  
 coding. The main project deliverable is a playable Tic Tac Toe game coded in HTML, CSS, and JavaScript.
+
+References:  
+w3schools.com
