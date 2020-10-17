@@ -1,0 +1,16 @@
+table {
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+	border-color: black;
+}
+button {
+	height:100px;
+	width:100px;
+	background-color: Transparent;
+	border-color: rgb(141, 12, 216);
+}
+h1{
+    text-align:center;
+}
