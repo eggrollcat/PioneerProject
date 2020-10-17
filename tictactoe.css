@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-position:center center;
   }
-
+  
   h1 {
     font-size: 3rem;
     margin-bottom: 0.5em;
@@ -87,7 +87,33 @@
   #block_8 {
     border-right: none;
   }
-  
+
+  /* #bigfish {
+    float: left;    
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    bottom: 200px;
+  } */
+
+  #ray {
+    float: left;
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    height: auto;
+    bottom: 300px;
+  }
+
+  #smallfish {
+    float: right;
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    height: auto;
+    bottom: 100px;
+  } 
+
   button {
     outline: none;
     border: 4px solid rgb(12, 12, 12);
