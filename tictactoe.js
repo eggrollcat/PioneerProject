@@ -1,3 +1,7 @@
+// File: tictactoe.js
+// Author: Viana Vu
+// Date: Oct 17, 2020
+
 const player = "O";
 const computer = "X";
 
@@ -50,6 +54,7 @@ const check_for_winner = () => {
   // This function checks for a win or lose
   var win = document.getElementById("win");
   var lose = document.getElementById("lose");
+  var draw = document.getElementById("draw");
   let res = check_match()
   if (res == player) {
     win.play();
@@ -62,6 +67,7 @@ const check_for_winner = () => {
     winner.classList.add("computerWin");
     board_full = true
   } else if (board_full) {
+    draw.play();
     winner.innerText = "Draw!";
     winner.classList.add("draw");
   }
@@ -106,12 +112,21 @@ const addComputerMove = () => {
 const reset_board = () => {
   play_board = ["", "", "", "", "", "", "", "", ""];
   board_full = false;
+  var reset = document.getElementById("reset")
+  reset.play()
   winner.classList.remove("playerWin");
   winner.classList.remove("computerWin");
   winner.classList.remove("draw");
   winner.innerText = "";
   render_board();
 };
+
+function about() {
+  document.getElementById("click").play();
+  alert("Pioneer Project | 8th Grade ELA | Stissing Mt. Middle School");
+  alert("Tic-Tac-Toe");
+  alert("Author: Viana Vu")
+}
 
 //initial render
 render_board();

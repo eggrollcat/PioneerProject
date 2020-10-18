@@ -1,3 +1,7 @@
+<!-- File: tictactoe.html -->
+<!-- Author: Viana Vu -->
+<!-- Date: Oct 17, 2020 -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,24 +9,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="tictactoe.css" />
-		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <!-- Links to tictactoe.css -->
+    <link rel="stylesheet" href="tictactoe.css" /> 
+    <!-- Google API font -->
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
   </head>
   <body>
     <div class="container">
         <h1>Tic-Tac-Toe</h1>
         <div id="sounds">
+          <!-- Sounds files for the tictactoe game -->
           <audio src="sounds/click.mp3" id="click" preload="auto"></audio>
           <audio src="sounds/win.mp3" id="win" preload="auto"></audio>
           <audio src="sounds/lose.mp3" id="lose" preload="auto"></audio>
+          <audio src="sounds/marimba.mp3" id="reset" preload="auto"></audio>
+          <audio src="sounds/level.mp3" id="draw" preload="auto"></audio>
         </div>
         <div class="icons">
+          <!-- Floating icons -->
           <img src="images/ray.gif" id="ray">
           <img src="images/smallfish.gif" id="smallfish">
-          <img src="images/puffer.gif" id="puffer">
+          <img src="images/puffer.gif" id="puffer" onclick="about()">
           <img src="images/redfish.gif" id="redfish">
         </div>
         <div class="play-area">
+          <!-- The game board -->
           <div id="block_0" class="block"></div>
           <div id="block_1" class="block"></div>
           <div id="block_2" class="block"></div>
@@ -34,8 +45,10 @@
           <div id="block_8" class="block"></div>
         </div>
         <h2 id="winner"></h2>
+        <!-- reset button -->
         <button onclick="reset_board()">Reset Board</button>
       </div>
-    <script src="tictactoe.js"></script>
+    <!-- Links to tictactoe.js -->
+    <script src="tictactoe.js"></script> 
   </body>
 </html>
