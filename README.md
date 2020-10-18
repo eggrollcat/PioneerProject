@@ -21,7 +21,7 @@ browser of your choice
 ### Resources
 
 Online Resources:  
-[W3Schools](https://www.w3schools.com/)
+[W3Schools](https://www.w3schools.com/)  
 [Stack Overflow](https://stackoverflow.com/)
 
 Related Articles:  
