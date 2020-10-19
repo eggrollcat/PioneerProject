@@ -18,6 +18,9 @@ Download the code:
 browser of your choice
 6. Once you get the game running, enjoy the aesthetics and have fun. Keep an eye out for the easter egg.
 
+Alternatively use this link to access the application online.  
+[Tic-Tac-Toe](https://codepen.io/eggrollcat/pen/rNLLyeP)
+
 ### Resources
 
 Online Resources:  
